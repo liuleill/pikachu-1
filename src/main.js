@@ -13,7 +13,7 @@ const string = `
 
 .nose{
     z-index: 3;
-    top:-30px;
+    top:-50px;
     position:relative;
 }
 
@@ -44,7 +44,7 @@ const string = `
     height:10px;
     position: relative;
     left:50%;
-    top:200px;
+    top:140px;
     margin-left:-10px;
     z-index: 2;
 }
@@ -65,7 +65,7 @@ const string = `
     height:64px;
     position: absolute;
     left: 50%;
-    top:120px;
+    top:40px;
     border-radius: 50%;
     margin-left:-32px;
     background:#2e2e2e;
@@ -89,11 +89,11 @@ const string = `
 }
 
 .eye.left{
-    transform: translateX(-120px);
+    transform: translateX(-100px);
 }
 
 .eye.right{
-    transform: translateX(120px);
+    transform: translateX(100px);
 }
 
 .mouth{
@@ -101,7 +101,7 @@ const string = `
     height:200px;
     position:absolute;
     left:50%;
-    top:180px;
+    top:100px;
     margin-left:-100px;
 }
 
@@ -192,7 +192,7 @@ const string = `
     border:5px solid black;
     width:88px;
     height:88px;
-    top:250px;
+    top:150px;
     margin-left:-44px;
     z-index: 3;
     border-radius: 50%;
@@ -200,11 +200,11 @@ const string = `
 }
 
 .face.left{
-    transform: translateX(160px);
+    transform: translateX(120px);
 }
 
 .face.right{
-    transform: translateX(-160px);
+    transform: translateX(-120px);
 }
 </style>
 `
