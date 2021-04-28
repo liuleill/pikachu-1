@@ -7,12 +7,14 @@ const string = `
 .skin{
     position: relative;
     background-color:rgb(255,219,0);
-    min-height: 100vh;
+    min-height: 50vh;
     /* 和height：100%的区别，没有内容，不会被撑开，而100vh，没有内容也会被曾恺和屏幕高度一样  */
 }
 
 .nose{
     z-index: 3;
+    top:-30px;
+    position:relative;
 }
 
 @keyframes wave {
@@ -63,7 +65,7 @@ const string = `
     height:64px;
     position: absolute;
     left: 50%;
-    top:150px;
+    top:120px;
     border-radius: 50%;
     margin-left:-32px;
     background:#2e2e2e;
@@ -99,7 +101,7 @@ const string = `
     height:200px;
     position:absolute;
     left:50%;
-    top:220px;
+    top:180px;
     margin-left:-100px;
 }
 
@@ -190,7 +192,7 @@ const string = `
     border:5px solid black;
     width:88px;
     height:88px;
-    top:280px;
+    top:250px;
     margin-left:-44px;
     z-index: 3;
     border-radius: 50%;
@@ -198,11 +200,11 @@ const string = `
 }
 
 .face.left{
-    transform: translateX(180px);
+    transform: translateX(160px);
 }
 
 .face.right{
-    transform: translateX(-180px);
+    transform: translateX(-160px);
 }
 </style>
 `
